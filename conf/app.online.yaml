@@ -1,0 +1,12 @@
+app:
+  app_id: 123456789
+  app_name: tros_example_server
+  app_version: v0.0.1
+  env: "online"
+  httpPort: 8080
+  grpcPort: 8081
+  websocketPort: 8082
+  monitorPort: 8083
+  log:
+    level: info
+    path:

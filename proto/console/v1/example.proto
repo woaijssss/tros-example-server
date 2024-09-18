@@ -1,0 +1,55 @@
+// 示例接口
+syntax = "proto3";
+
+package console.v1;
+
+import "google/api/annotations.proto";
+//import "google/api/field_behavior.proto";
+import "google/protobuf/descriptor.proto";
+//import "google/protobuf/empty.proto";
+import "protoc-gen-openapiv2/options/annotations.proto";
+
+option go_package = "tros_example_server/console/v1";
+
+// 示例接口api
+service ExampleService {
+  // 示例接口GET请求
+  rpc GetExample(GetExampleRequest) returns (GetExampleResponse) {
+    option (google.api.http) = {
+      get: "/console/v1/example"
+    };
+    option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
+      tags: ["示例接口"]
+    };
+  }
+  // 示例接口POST请求
+  rpc PostExample(PostExampleRequest) returns (PostExampleResponse) {
+    option (google.api.http) = {
+      post: "/console/v1/example",
+      body: "*"
+    };
+    option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
+      tags: ["示例接口"]
+    };
+  }
+}
+
+message GetExampleRequest {
+  // 请求id
+  int32 id = 1;
+}
+
+message GetExampleResponse {
+  // 响应value
+  int32 value = 1;
+}
+
+message PostExampleRequest {
+  // 请求id
+  int32 id = 1;
+}
+
+message PostExampleResponse {
+  // 响应value
+  int32 value = 1;
+}
