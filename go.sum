@@ -322,8 +322,8 @@ github.com/ugorji/go/codec v1.2.11 h1:BMaWp1Bb6fHwEtbplGBGJ498wD+LKlNSl25MjdZY4d
 github.com/ugorji/go/codec v1.2.11/go.mod h1:UNopzCgEMSXjBc6AOMqYvWC1ktqTAfzJZUZgYf6w6lg=
 github.com/woaijssss/godbx v1.0.0 h1:yfeQpY2pxvbJpS4WnVQsmPLZ/rddrwu2yzX3D68fK9I=
 github.com/woaijssss/godbx v1.0.0/go.mod h1:yKpGWso8rq6wQjaJz84fEQNqH8aR1/YrZFiOLWdnDz8=
-github.com/woaijssss/tros v1.1.0 h1:BWbLVRhF9ZCOKLfKc2BeMXDGgBF5py6RtZQHah1WKa0=
-github.com/woaijssss/tros v1.1.0/go.mod h1:vAhuBc/bT1PALeBH2N0HRWAujFA8v4FiTvObKNpzJmk=
+github.com/woaijssss/tros v1.2.0 h1:azyFysY3G2D7OdQNaQ5sbo9npLgsWqB3hDjW+Uv9YzY=
+github.com/woaijssss/tros v1.2.0/go.mod h1:vAhuBc/bT1PALeBH2N0HRWAujFA8v4FiTvObKNpzJmk=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
